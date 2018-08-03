@@ -1,0 +1,13 @@
+.drawings  {
+    margin: 20px 0 0 10px;
+} 
+
+.drawings.hidden {
+    visibility: hidden;
+}
+
+.canvas {
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellowgreen;
+}

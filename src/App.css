@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.pendu.title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 0 10px 0;
+  margin: 10px 0 0 10px;
+}
+
+.pendu.phrase {
+  margin: 0 0 0 10px;
+}
+
+.pendu.keyboard {
+  margin: 20px 0 0 10px;
+}
+.pendu.players {
+  margin: 20px 0 0 10px;
+}
+
+.pendu.winner {
+  margin: 20px 0 0 10px;
+  font-weight: bold;
+}
+
+.pendu.hanged {
+  margin: 20px 0 0 10px;
+  font-weight: bold;
+}
+
+.pendu.button {
+  margin: 10px 0 0 10px;
+}

@@ -1,0 +1,29 @@
+.key {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    flex: 1 1 calc(100% / 6 - 0.4em);
+    outline: 0.08em solid black;
+    margin: 0.2em;
+    display: inline-flex;
+    cursor: default;
+  }
+
+.key > .symbol {
+    margin: auto;
+  }
+
+.key.pressed {
+    background: silver;
+    cursor: not-allowed;
+    -webkit-column-count: 13; /* Chrome, Safari, Opera */
+    -moz-column-count: 13; /* Firefox */
+    column-count: 13;
+  }
+  
+.key.never_pressed {
+    outline-color: green;
+    -webkit-column-count: 13; /* Chrome, Safari, Opera */
+    -moz-column-count: 13; /* Firefox */
+    column-count: 13;
+  }

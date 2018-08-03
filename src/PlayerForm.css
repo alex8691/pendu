@@ -1,0 +1,12 @@
+.form {
+    margin: 5px 0 0 10px;
+}
+  
+.form.label {
+    display: block;
+    font-weight: bold;
+}
+  
+.form.button {
+    margin: 20px 0 0 10px;
+}

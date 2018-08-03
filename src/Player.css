@@ -1,0 +1,32 @@
+table {
+    width: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+tr:nth-child(odd) {
+   background-color: #fff;
+}
+th {
+    background-color: darkslategray;
+    color: white;
+}
+
+.player.tour {
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.player {
+    color: black;
+    font-weight: normal;
+}
